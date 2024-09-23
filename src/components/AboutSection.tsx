@@ -1,3 +1,4 @@
+import Button from '@/app/element/Button';
 import React from 'react';
 
 const AboutSection = () => {
@@ -16,9 +17,10 @@ const AboutSection = () => {
           <div className="lg:py-16">
             <article className="space-y-4 text-gray-600">
               <div className="max-w-3xl">
-                <h2 className="text-3xl font-bold sm:text-4xl">
+                <h2 className="text-sm relative py-4 font-bold sm:text-xl">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
                   alias doloribus impedit.
+                  <span className="w-[10%] h-[2px] bg-red-600 absolute bottom-0 left-0"></span>
                 </h2>
               </div>
 
@@ -29,6 +31,7 @@ const AboutSection = () => {
                 egestas fames. Placeat, sociis tempore, dis
               </p>
             </article>
+            <Button />
           </div>
         </div>
       </div>
