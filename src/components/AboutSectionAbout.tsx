@@ -19,26 +19,36 @@ const AboutSectionAbout = () => {
             <a href="#" className="block">
               <img
                 alt=""
-                src="https://websitedemos.net/cake-shop-04/wp-content/uploads/sites/537/2020/03/about-01-free-img.jpg"
+                src="https://images.pexels.com/photos/7552323/pexels-photo-7552323.jpeg?auto=compress&cs=tinysrgb&w=600"
                 className="h-64 w-full object-cover sm:h-80 lg:h-96"
               />
 
-              <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
-                About Us
-              </h3>
+              <div className="flex gap-5">
+                <h3 className=" max-w-[30%] mt-4 text-lg  font-bold text-gray-900 sm:text-xl">
+                  A few words about Fiona, and how her passion turned into a
+                  flavorous business...
+                </h3>
 
-              <p className="mt-2 max-w-sm text-gray-700">
-                Hey there, I'm Fiona Cornelis, a French baker from Brussels,
-                Belgium. I own my own bakery where I lorem ipsum dolor sit amet.
-                Proin semper pellentesque sapien sit amet pretium phasellus sit.
-              </p>
+                <div className="grad gap-4">
+                  <p className="mt-2 leading-[40px]  border-b-2 max-w-sm text-gray-700">
+                    Hey there, I'm Fiona Cornelis, a French baker from Brussels,
+                    Belgium.
+                  </p>
+                  <p className="mt-2 max-w-sm text-gray-700">
+                    Hey there, I'm Fiona Cornelis, a French baker from Brussels,
+                    Belgium. I own my own bakery where I lorem ipsum dolor sit
+                    amet. Proin semper pellentesque sapien sit amet pretium
+                    phasellus sit.
+                  </p>
+                </div>
+              </div>
             </a>
 
             <a href="#" className="block">
               <img
                 alt=""
-                src="https://websitedemos.net/fiona-patisserie-04/wp-content/uploads/sites/1136/2022/11/about-02.jpg"
-                className="h-64 w-full object-cover sm:h-80 lg:h-96"
+                src="https://images.pexels.com/photos/28495596/pexels-photo-28495596/free-photo-of-barista-slicing-cake-in-a-cozy-cafe-setting.jpeg?auto=compress&cs=tinysrgb&w=600"
+                className="h-[500px] w-full object-cover sm:h-80 lg:h-[45rem]"
               />
 
               <h3 className="mt-4 text-lg font-bold text-gray-900 sm:text-xl">
